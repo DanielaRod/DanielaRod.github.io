@@ -6,7 +6,7 @@ print('Vamos começar!')
 
 print ('Digite o seu peso em kg: ')
 peso_kg = float(input())
-print ('Digite o seu peso em cm: ')
+print ('Digite a sua altura em cm: ')
 altura_cm = float(input())
 IMC = peso_kg / (altura_cm * altura_cm)
 if IMC <= 18.5:
@@ -17,4 +17,3 @@ elif IMC > 25 and IMC < 30:
     print ('O teu IMC é', IMC, 'o que significa que te encontras acima do peso')
 elif IMC >= 30:
     print ('O teu IMC é', IMC, 'o que significa que te encontras obeso')
-  
